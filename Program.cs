@@ -13,7 +13,7 @@ if (File.Exists(sessionFilePath)) contextOptions.StorageStatePath = sessionFileP
 var context = await browser.NewContextAsync(contextOptions);
 var mainPage = await context.NewPageAsync();
 
-await mainPage.GotoAsync(vacancySearchUrl, new PageGotoOptions { Timeout = 30000 });
+await mainPage.GotoAsync(vacancySearchUrl, new PageGotoOptions { Timeout = 300000 });
 
 if (!File.Exists(sessionFilePath))
 {
