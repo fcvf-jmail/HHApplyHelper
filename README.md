@@ -1,5 +1,4 @@
-> 
-git clone https://github.com/fcvf-jmail/HHApplyHelper
+> git clone https://github.com/fcvf-jmail/HHApplyHelper
 cd HHApplyHelper
 dotnet restore
 brew install --cask powershell
